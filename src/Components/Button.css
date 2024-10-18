@@ -1,0 +1,49 @@
+button.main-button {
+  font-size: 16.3px ;
+  color: white ;
+  border: none ;
+  outline: none ;
+  border-radius: 40px ;
+  width: 205px ;
+  height: 45px ;
+  font-family: 'Public Sans', sans-serif;
+  background: linear-gradient(90deg , rgb(50, 218, 103),rgb(104, 179, 190) ) ;
+  cursor: pointer;
+}
+
+
+.main-button {
+  position: relative;
+  background-image: linear-gradient(
+    90deg ,
+    rgb(50, 218, 103),
+    rgb(104, 179, 190)
+  );
+  z-index: 1;
+}
+
+.main-button::before {
+  border-radius: 40px ;
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient( 90deg ,    #84E2A4,   #7BD7E4  );
+  z-index: -1;
+  transition: opacity 0.4s ease-in-out ;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-in-out ;
+  -moz-transition: opacity 0.4s ease-in-out ;
+  -ms-transition: opacity 0.4s ease-in-out ;
+  -o-transition: opacity 0.4s ease-in-out ;
+  -webkit-border-radius: 40px ;
+  -moz-border-radius: 40px ;
+  -ms-border-radius: 40px ;
+  -o-border-radius: 40px ;
+}
+
+.main-button:hover::before {
+  opacity: 1;
+}
