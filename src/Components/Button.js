@@ -6,7 +6,7 @@ const Button = () => {
   return (
     <a
       href={whitepaper}
-      download={whitepaper}
+      download
       target="_blank"
       rel="noopener noreferrer"
     >
