@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import Button from "./Button";
+// import Button from "./Button";
 
 function Footer() {
   return (
@@ -71,7 +71,7 @@ function Footer() {
       <div className="footer-right">
         <div className="center">
 
-        <Button />
+        {/* <Button /> */}
         </div>
         <p>Saudi Open Network for Mobility . All rights reserved </p>
       </div>

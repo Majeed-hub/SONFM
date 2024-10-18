@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './Body.css' ;
-import Button from './Button' ;
+// import Button from './Button' ;
 // import imageMockup from '../Assets/image-mockups.png'
 import { cardData, openMobilityArticles } from "../Assets/data";
 import Card from './Card' ;
@@ -33,7 +33,7 @@ const Body = ({ open }) => {
             An Inclusive Decentralized Transport Network Powered by the Beckn
             Protocol
           </p>
-          <Button />
+          {/* <Button /> */}
         </div>
 
         <div className="body-up-right">
