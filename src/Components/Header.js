@@ -1,6 +1,6 @@
 import React from 'react' ;
 import './Header.css'  ;
-import Button from './Button' ;
+// import Button from './Button' ;
 // import Menu from './Menu' ;
 const Header = ({ updateOpen }) => {
   
@@ -21,7 +21,7 @@ const Header = ({ updateOpen }) => {
             <a href='#' >Blog</a>
             <a href='#' >Careers</a> */}
         </div>
-        <Button />
+        {/* <Button /> */}
         {/* <Menu updateOpen={updateOpen} update={setOpen} />
         <div className={`header-links-mobile ${open && 'open'}`} >
             <a href='#' >Home</a>
