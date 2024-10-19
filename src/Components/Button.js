@@ -2,11 +2,11 @@ import React from 'react' ;
 import './Button.css' ;
 
 const Button = () => {
-  const whitepaper = process.env.PUBLIC_URL + "/documents/whitePaper.pdf";
+  const whitepaper = "/documents/whitePaper.pdf";
   return (
     <a
       href={whitepaper}
-      download
+      download="whitePaper.pdf"
       target="_blank"
       rel="noopener noreferrer"
     >
